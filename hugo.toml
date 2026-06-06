@@ -1,0 +1,25 @@
+baseURL = "https://blog.wenzl.no/"
+defaultContentLanguage = "cs"
+title = "Blog – Václav Wenzl"
+
+[languages]
+  [languages.cs]
+    locale = "cs-CZ"
+    weight = 1
+
+paginate = 10
+summaryLength = 70
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+
+[params]
+  description = "Blog – Václav Wenzl"
+  author      = "Václav Wenzl"
+  siteURL     = "https://blog.wenzl.no"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

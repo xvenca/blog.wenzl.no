@@ -1,0 +1,27 @@
+name: Auto-merge Dependabot
+
+on:
+  pull_request:
+    types: [opened, labeled, ready_for_review, synchronize]
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Wait for status checks
+        uses: chrnorm/dependabot-auto-merge-wait@v1
+        with:
+          timeout: '20m'
+
+      - name: Merge if green
+        uses: pascalgn/automerge-action@v0.16.4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          merge_method: squash
+          required_status_checks: 'all'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

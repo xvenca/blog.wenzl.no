@@ -1,0 +1,136 @@
+name: CI — Build Hugo site
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    name: Build and verify
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+
+      - name: Build site (hugo --minify)
+        run: hugo --minify
+
+      - name: Verify build directory exists
+        run: |
+          if [ -d public ]; then echo "public exists"; ls -la public | head -20; else echo "public missing"; exit 1; fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browser
+        run: npx playwright install chromium --with-deps
+
+      - name: Start Hugo dev server
+        run: |
+          hugo server --port 1313 --disableFastRender &
+          for i in $(seq 1 30); do
+            if curl -s http://localhost:1313 > /dev/null 2>&1; then
+              echo "Hugo server ready"
+              break
+            fi
+            sleep 1
+          done
+
+      - name: Take page screenshots
+        run: node .github/scripts/screenshot.js
+
+      - name: Generate OG preview cards
+        run: node .github/scripts/og-preview.js
+
+      - name: Upload screenshots to release and comment on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const prNum = context.issue.number;
+            const tagName = `ci-screenshots-pr${prNum}`;
+
+            try {
+              const { data: releases } = await github.rest.repos.listReleases({ owner, repo, per_page: 50 });
+              const old = releases.find(r => r.tag_name === tagName);
+              if (old) {
+                await github.rest.repos.deleteRelease({ owner, repo, release_id: old.id });
+                try { await github.rest.git.deleteRef({ owner, repo, ref: `tags/${tagName}` }); } catch {}
+              }
+            } catch {}
+
+            const { data: release } = await github.rest.repos.createRelease({
+              owner, repo,
+              tag_name: tagName,
+              target_commitish: context.payload.pull_request.head.sha,
+              name: `CI Screenshots — PR #${prNum}`,
+              draft: false,
+              prerelease: true,
+            });
+
+            async function uploadDir(dir, prefix = '') {
+              if (!fs.existsSync(dir)) return {};
+              const files = fs.readdirSync(dir).filter(f => f.endsWith('.png')).sort();
+              const urls = {};
+              for (let i = 0; i < files.length; i += 5) {
+                await Promise.all(files.slice(i, i + 5).map(async f => {
+                  const data = fs.readFileSync(`${dir}/${f}`);
+                  const { data: asset } = await github.rest.repos.uploadReleaseAsset({
+                    owner, repo,
+                    release_id: release.id,
+                    name: prefix + f,
+                    data,
+                    headers: { 'content-type': 'image/png', 'content-length': data.length },
+                  });
+                  urls[f] = asset.browser_download_url;
+                }));
+              }
+              return urls;
+            }
+
+            const [urls, ogUrls] = await Promise.all([
+              uploadDir('screenshots'),
+              uploadDir('og-screenshots', 'og-'),
+            ]);
+
+            const files   = Object.keys(urls).sort();
+            const ogFiles = Object.keys(ogUrls).sort();
+
+            let body = '';
+
+            if (ogFiles.length > 0) {
+              body += `## OG preview cards (${ogFiles.length} pages)\n\n`;
+              for (const f of ogFiles) {
+                const name = f.replace('.png', '');
+                body += `**${name}**\n![${name}](${ogUrls[f]})\n\n`;
+              }
+              body += `---\n\n`;
+            }
+
+            body += `## Page screenshots (${files.length} pages)\n\n`;
+            for (const f of files) {
+              const name = f.replace('.png', '');
+              body += `**${name}**\n![${name}](${urls[f]})\n\n`;
+            }
+
+            await github.rest.issues.createComment({ issue_number: prNum, owner, repo, body });

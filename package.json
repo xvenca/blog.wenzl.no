@@ -1,0 +1,7 @@
+{
+  "name": "blog-wenzl",
+  "version": "1.0.0",
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
