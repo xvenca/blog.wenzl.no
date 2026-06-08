@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server:     wenzl.no
           username:   ${{ secrets.FTP_USERNAME }}
