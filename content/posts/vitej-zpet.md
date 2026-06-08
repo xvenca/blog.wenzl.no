@@ -1,12 +1,14 @@
 ---
-title: "Vítej zpátky"
+title: "Z Moravy na sever"
 date: 2024-01-15T10:00:00+01:00
-description: "Po skoro dvaceti letech znova beru pero do ruky."
-tags: ["zápisky"]
+description: "Zápisky moravského člověka, který si jednoho dne zabalil kufr a odjel do Norska."
+tags: ["zápisky", "úvod"]
 ---
 
-Je to skoro dvacet let od doby, kdy jsem naposledy psal blog. Tehdy to bylo jiné – internet byl menší, osobnější. Lidé četli navzájem své zápisky. Psali komentáře. Znali se.
+Narodil jsem se na Moravě. Dnes žiju v Norsku.
 
-Dnes nevím, jestli to tak stále funguje. Ale rozhodl jsem se zkusit to znova. Ne proto, aby mě někdo četl. Píšu proto, abych věděl, co si myslím. Zápisky jsou pro mě víc deník než noviny.
+Tyhle dvě věty jsou základ všeho. Mezi nimi leží kufry, letiště, norština, fjordy a absence dobrého vína v dostupné vzdálenosti. Taky přátelé, nová práce, jiný způsob života.
 
-Uvidíme, jak to dopadne.
+Chci si tyhle věci zapisovat. Ne proto, aby mě někdo četl – spíš proto, abych věděl, co si myslím. Zápisník je pro mě lepší než terapie a levnější.
+
+Tak vítej. Ať jsi Moravan, Norák, nebo jen náhodný kolemjdoucí internetu.
