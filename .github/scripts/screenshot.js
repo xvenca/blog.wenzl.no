@@ -34,6 +34,7 @@ async function collectUrls() {
   const indexXml = await fetchText(`${BASE}/sitemap.xml`);
 
   if (indexXml.includes('<sitemapindex')) {
+    // multilingual: sitemap index → fetch each child
     const urls = [];
     for (const childUrl of extractLocs(indexXml)) {
       const xml = await fetchText(toLocal(childUrl));
@@ -42,6 +43,7 @@ async function collectUrls() {
     return [...new Set(urls)];
   }
 
+  // single sitemap (fallback)
   return extractLocs(indexXml);
 }
 

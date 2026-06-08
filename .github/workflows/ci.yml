@@ -30,6 +30,9 @@ jobs:
       - name: Verify build directory exists
         run: |
           if [ -d public ]; then echo "public exists"; ls -la public | head -20; else echo "public missing"; exit 1; fi
+          html_count=$(find public -name "*.html" | wc -l)
+          echo "HTML files generated: $html_count"
+          if [ "$html_count" -eq 0 ]; then echo "ERROR: Hugo build produced no HTML files — theme likely not loaded"; exit 1; fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
