@@ -35,7 +35,7 @@ jobs:
           if [ "$html_count" -eq 0 ]; then echo "ERROR: Hugo build produced no HTML files — theme likely not loaded"; exit 1; fi
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22'
 
