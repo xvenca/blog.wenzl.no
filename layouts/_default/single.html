@@ -4,6 +4,7 @@
     <header class="post-single__header">
       <div class="post-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+        {{ if gt .ReadingTime 0 }}<span class="reading-time">{{ .ReadingTime }} min čtení</span>{{ end }}
         {{ with .Params.tags }}
         <div class="tags">
           {{ range . }}

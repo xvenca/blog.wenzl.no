@@ -7,23 +7,20 @@
     <li class="post-card">
       <div class="post-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+        {{ if gt .ReadingTime 0 }}<span class="reading-time">{{ .ReadingTime }} min</span>{{ end }}
         {{ with .Params.tags }}
-        <div class="tags">
-          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
-        </div>
+        <div class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</div>
         {{ end }}
       </div>
       <h2 class="post-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ with .Summary }}<p class="post-card__summary">{{ . }}</p>{{ end }}
+      {{ with .Description }}<p class="post-card__summary">{{ . }}</p>{{ end }}
       <a href="{{ .Permalink }}" class="read-more">číst dál →</a>
     </li>
     {{ end }}
   </ol>
-  {{ if gt $paginator.TotalPages 1 }}
-  {{ template "_internal/pagination.html" . }}
-  {{ end }}
+  {{ if gt $paginator.TotalPages 1 }}{{ template "_internal/pagination.html" . }}{{ end }}
   {{ else }}
-  <p class="empty">Zatím žádné zápisky. Brzy se to změní.</p>
+  <p class="empty">Zápisky se teprve rodí.</p>
   {{ end }}
 </div>
 {{ end }}

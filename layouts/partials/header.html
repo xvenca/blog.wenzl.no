@@ -3,7 +3,7 @@
   <div class="container">
     <div class="site-header__inner">
       <div class="site-brand">
-        <a href="{{ "/" | relURL }}" class="site-brand__name">{{ .Site.Params.author | default .Site.Title }}</a>
+        <a href="{{ "/" | relURL }}" class="site-brand__name">{{ .Site.Title }}</a>
         {{ with .Site.Params.tagline }}
         <p class="site-brand__tagline">{{ . }}</p>
         {{ end }}
