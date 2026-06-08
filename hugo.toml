@@ -15,8 +15,9 @@ summaryLength = 70
   tag      = "tags"
 
 [params]
-  description = "Blog – Václav Wenzl"
+  description = "Zápisky Václava Wenzla"
   author      = "Václav Wenzl"
+  tagline     = "zápisník jednoho člověka"
   siteURL     = "https://blog.wenzl.no"
 
 [markup]

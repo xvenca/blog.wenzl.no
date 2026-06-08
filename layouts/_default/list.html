@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} – {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
-  <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }}">
-  <meta property="og:description" content="{{ .Site.Params.description }}">
-  <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:site_name" content="{{ .Site.Title }}">
-</head>
-<body>
-  <main>
+{{ define "main" }}
+<div class="container">
+  <header class="list-header">
     <h1>{{ .Title }}</h1>
+  </header>
+  {{ if .Pages }}
+  <ol class="post-list" reversed>
     {{ range .Pages.ByDate.Reverse }}
-    <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
-      <p>{{ .Summary }}</p>
-    </article>
+    <li class="post-card">
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+      </div>
+      <h2 class="post-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ with .Summary }}<p class="post-card__summary">{{ . }}</p>{{ end }}
+    </li>
     {{ end }}
-  </main>
-</body>
-</html>
+  </ol>
+  {{ else }}
+  <p class="empty">Žádné zápisky v této kategorii.</p>
+  {{ end }}
+</div>
+{{ end }}

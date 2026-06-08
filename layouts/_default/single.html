@@ -1,22 +1,37 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} – {{ .Site.Title }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:site_name" content="{{ .Site.Title }}">
-</head>
-<body>
-  <main>
-    <article>
-      <h1>{{ .Title }}</h1>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+{{ define "main" }}
+<div class="container">
+  <article>
+    <header class="post-single__header">
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+        {{ with .Params.tags }}
+        <div class="tags">
+          {{ range . }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <h1 class="post-single__title">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="post-single__description">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="post-content">
       {{ .Content }}
-    </article>
-  </main>
-</body>
-</html>
+    </div>
+
+    <footer class="post-single__footer">
+      <a href="{{ "/" | relURL }}" class="back-link">← zpět na zápisky</a>
+      {{ with .Params.tags }}
+      <div class="tags">
+        {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </footer>
+  </article>
+</div>
+{{ end }}
