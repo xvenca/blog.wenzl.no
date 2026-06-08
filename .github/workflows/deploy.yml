@@ -33,5 +33,5 @@ jobs:
           username:   ${{ secrets.FTP_USERNAME }}
           password:   ${{ secrets.FTP_PASSWORD }}
           local-dir:  ./public/
-          server-dir: /home/tbjckrmk/blog/
+          server-dir: /blog/
           dangerous-clean-slate: false
