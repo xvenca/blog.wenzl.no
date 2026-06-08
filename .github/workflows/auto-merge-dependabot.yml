@@ -1,27 +1,30 @@
 name: Auto-merge Dependabot
 
-on:
-  pull_request:
-    types: [opened, labeled, ready_for_review, synchronize]
+on: pull_request
+
+permissions:
+  pull-requests: write
+  contents: write
 
 jobs:
-  automerge:
+  dependabot:
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Wait for status checks
-        uses: chrnorm/dependabot-auto-merge-wait@v1
+      - name: Fetch Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v2
         with:
-          timeout: '20m'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
 
-      - name: Merge if green
-        uses: pascalgn/automerge-action@v0.16.4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          merge_method: squash
-          required_status_checks: 'all'
+      - name: Approve PR
+        run: gh pr review --approve "$PR_URL"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enable auto-merge (squash)
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
