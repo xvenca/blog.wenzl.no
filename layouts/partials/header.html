@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="folk-band" aria-hidden="true"></div>
+  <div class="container">
+    <div class="site-header__inner">
+      <div class="site-brand">
+        <a href="{{ "/" | relURL }}" class="site-brand__name">{{ .Site.Title }}</a>
+        {{ with .Site.Params.tagline }}
+        <p class="site-brand__tagline">{{ . }}</p>
+        {{ end }}
+      </div>
+      <nav class="site-nav" aria-label="Navigace">
+        <a href="{{ "/" | relURL }}">zápisky</a>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+</header>

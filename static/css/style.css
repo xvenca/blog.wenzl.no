@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400;1,600&family=Inter:wght@400;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ── Variables ────────────────────────────────────────────── */
+
+:root {
+  --bg:        #FAF3E5;
+  --bg-alt:    #F0E4CC;
+  --text:      #1A0D07;
+  --muted:     #7A5840;
+  --red:       #8B1A1A;   /* Moravian wine red  */
+  --red-h:     #A52828;
+  --blue:      #1C3D7A;   /* Folk cobalt blue   */
+  --gold:      #C4900A;   /* Warm golden yellow */
+  --border:    #D4B480;
+  --border-lt: #ECD8B0;
+  --serif:     'Lora', Georgia, serif;
+  --display:   'Cormorant Garamond', 'Palatino Linotype', Georgia, serif;
+  --sans:      'Inter', system-ui, sans-serif;
+  --w:         700px;
+
+  /* Folk stripe gradient shared across elements */
+  --folk: repeating-linear-gradient(
+    90deg,
+    var(--red)  0px, var(--red)  8px,
+    var(--gold) 8px, var(--gold) 11px,
+    var(--blue) 11px, var(--blue) 19px,
+    var(--gold) 19px, var(--gold) 22px
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #180C06;
+    --bg-alt:    #231409;
+    --text:      #F0E5D0;
+    --muted:     #9A7855;
+    --red:       #C04040;
+    --red-h:     #D45050;
+    --blue:      #5888D0;
+    --gold:      #D4A820;
+    --border:    #3A2010;
+    --border-lt: #281508;
+  }
+}
+
+/* ── Reset ────────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  line-height: 1.75;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--red);
+  color: var(--bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ── Layout ───────────────────────────────────────────────── */
+
+.container {
+  width: 100%;
+  max-width: var(--w);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.main { flex: 1; padding-block-end: 5rem; }
+
+/* ── Links ────────────────────────────────────────────────── */
+
+a {
+  color: var(--red);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color .15s;
+}
+
+a:hover { color: var(--red-h); }
+
+/* ── Folk band ────────────────────────────────────────────── */
+/*
+   Stripes inspired by Moravian folk costume ribbon (stuhová výšivka).
+   Repeating: RED · GOLD · BLUE · GOLD …
+*/
+.folk-band {
+  height: 10px;
+  background: var(--folk);
+}
+
+.folk-band--sm {
+  height: 5px;
+  opacity: .45;
+}
+
+/* ── Site header ──────────────────────────────────────────── */
+
+.site-header {
+  border-block-end: 1px solid var(--border);
+  margin-block-end: 4rem;
+}
+
+.site-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-block: 2.25rem;
+}
+
+.site-brand__name {
+  font-family: var(--display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  transition: color .15s;
+}
+
+.site-brand__name:hover { color: var(--red); }
+
+.site-brand__tagline {
+  font-family: var(--sans);
+  font-size: .78rem;
+  color: var(--muted);
+  margin-block-start: .3rem;
+  letter-spacing: .03em;
+}
+
+.site-nav { display: flex; gap: 1.5rem; flex-shrink: 0; }
+
+.site-nav a {
+  font-family: var(--sans);
+  font-size: .85rem;
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: .01em;
+  transition: color .15s;
+}
+
+.site-nav a:hover { color: var(--red); }
+
+/* ── Post list ────────────────────────────────────────────── */
+
+.post-list { list-style: none; }
+
+.post-card {
+  padding-block: 2.5rem;
+  position: relative;
+  border-radius: 6px;
+  margin-inline: -.75rem;
+  padding-inline: .75rem;
+  transition: background .15s;
+}
+
+.post-card:hover { background: var(--bg-alt); }
+.post-card:first-child { padding-block-start: 0; }
+
+/* Folk stripe divider between cards */
+.post-card + .post-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline: .75rem;
+  height: 3px;
+  background: var(--folk);
+  opacity: .2;
+  border-radius: 2px;
+}
+
+/* ── Post meta ────────────────────────────────────────────── */
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-block-end: .6rem;
+}
+
+.post-meta time {
+  font-family: var(--sans);
+  font-size: .78rem;
+  color: var(--muted);
+  letter-spacing: .03em;
+}
+
+.reading-time {
+  font-family: var(--sans);
+  font-size: .75rem;
+  color: var(--muted);
+  opacity: .8;
+}
+
+.reading-time::before {
+  content: '·';
+  margin-inline-end: .35em;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: .3rem; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: .7rem;
+  color: var(--red);
+  background: var(--bg-alt);
+  border: 1px solid var(--border-lt);
+  border-radius: 2px;
+  padding: .12em .55em;
+  text-decoration: none;
+  letter-spacing: .02em;
+  transition: border-color .15s, background .15s;
+}
+
+.tag:hover {
+  border-color: var(--red);
+  background: var(--bg);
+}
+
+/* ── Post card content ────────────────────────────────────── */
+
+.post-card__title {
+  font-family: var(--display);
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  margin-block-end: .5rem;
+}
+
+.post-card__title a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color .15s;
+}
+
+.post-card:hover .post-card__title a,
+.post-card__title a:hover { color: var(--red); }
+
+.post-card__summary {
+  font-size: .94rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-block-end: .85rem;
+  text-wrap: pretty;
+}
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: .3em;
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--red);
+  text-decoration: none;
+  transition: gap .2s, color .15s;
+}
+
+.read-more:hover {
+  color: var(--red-h);
+  gap: .55em;
+}
+
+/* ── Empty state ──────────────────────────────────────────── */
+
+.empty {
+  font-family: var(--display);
+  font-size: 1.2rem;
+  color: var(--muted);
+  font-style: italic;
+  padding-block: 4rem;
+  text-align: center;
+}
+
+/* ── Pagination ───────────────────────────────────────────── */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  list-style: none;
+  margin-block-start: 3rem;
+  font-family: var(--sans);
+  font-size: .85rem;
+}
+
+.pagination .page-item a,
+.pagination .page-item span {
+  display: inline-block;
+  padding: .4em .8em;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: all .15s;
+}
+
+.pagination .page-item a:hover { border-color: var(--red); color: var(--red); }
+
+.pagination .page-item.active span {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--bg);
+}
+
+/* ── Single post header ───────────────────────────────────── */
+
+.post-single__header {
+  margin-block-end: 2.75rem;
+  padding-block-end: 2.25rem;
+  position: relative;
+}
+
+/* Folk stripe under post header */
+.post-single__header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  height: 3px;
+  background: var(--folk);
+  opacity: .2;
+  border-radius: 2px;
+}
+
+.post-single__title {
+  font-family: var(--display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -.025em;
+  line-height: 1.1;
+  margin-block: .75rem .85rem;
+  text-wrap: balance;
+}
+
+.post-single__description {
+  font-family: var(--display);
+  font-size: 1.15rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.55;
+}
+
+/* ── Post content typography ──────────────────────────────── */
+
+.post-content { font-size: 1rem; line-height: 1.85; }
+
+.post-content > * + * { margin-block-start: 1.4rem; }
+
+.post-content p { text-wrap: pretty; }
+
+.post-content h2 {
+  font-family: var(--display);
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -.015em;
+  line-height: 1.2;
+  margin-block-start: 3rem;
+  margin-block-end: -.25rem;
+}
+
+.post-content h3 {
+  font-family: var(--display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  margin-block-start: 2.25rem;
+  margin-block-end: -.5rem;
+}
+
+.post-content a { color: var(--red); }
+
+.post-content ul,
+.post-content ol { padding-inline-start: 1.5rem; }
+
+.post-content li + li { margin-block-start: .4rem; }
+
+.post-content blockquote {
+  border-inline-start: 3px solid var(--blue);
+  padding-inline-start: 1.35rem;
+  padding-block: .2rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.post-content blockquote p { margin-block-end: 0; }
+
+.post-content hr {
+  border: none;
+  height: 3px;
+  background: var(--folk);
+  opacity: .2;
+  margin-inline: 20%;
+  border-radius: 2px;
+}
+
+.post-content code {
+  font-family: ui-monospace, 'Fira Code', 'Cascadia Code', monospace;
+  font-size: .875em;
+  background: var(--bg-alt);
+  border: 1px solid var(--border-lt);
+  border-radius: 3px;
+  padding: .12em .4em;
+}
+
+.post-content pre {
+  background: var(--bg-alt);
+  border: 1px solid var(--border-lt);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+.post-content pre code {
+  background: none; border: none; padding: 0;
+  font-size: .875rem; line-height: 1.6;
+}
+
+.post-content img {
+  max-width: 100%; height: auto;
+  border-radius: 4px; display: block;
+}
+
+.post-content figure { margin-block: 0; }
+
+.post-content figcaption {
+  font-family: var(--sans);
+  font-size: .8rem;
+  color: var(--muted);
+  text-align: center;
+  margin-block-start: .5rem;
+  font-style: italic;
+}
+
+.post-content table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+
+.post-content th,
+.post-content td {
+  padding: .5rem .75rem;
+  border: 1px solid var(--border-lt);
+  text-align: left;
+}
+
+.post-content th {
+  background: var(--bg-alt);
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+/* ── Post single footer ───────────────────────────────────── */
+
+.post-single__footer {
+  margin-block-start: 3.5rem;
+  padding-block-start: 2rem;
+  border-block-start: 1px solid var(--border-lt);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.back-link {
+  font-family: var(--sans);
+  font-size: .85rem;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color .15s;
+}
+
+.back-link:hover { color: var(--red); }
+
+/* ── List page ────────────────────────────────────────────── */
+
+.list-header {
+  margin-block-end: 2.5rem;
+  padding-block-end: 2rem;
+  position: relative;
+}
+
+.list-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  inset-inline: 0;
+  height: 3px;
+  background: var(--folk);
+  opacity: .2;
+  border-radius: 2px;
+}
+
+.list-header h1 {
+  font-family: var(--display);
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+
+/* ── Site footer ──────────────────────────────────────────── */
+
+.site-footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--sans);
+  font-size: .78rem;
+  color: var(--muted);
+  padding-block: 1.75rem;
+}
+
+.site-footer a { color: var(--muted); text-decoration: none; transition: color .15s; }
+.site-footer a:hover { color: var(--red); }
+
+/* ── Responsive ───────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  html { font-size: 17px; }
+
+  .site-header { margin-block-end: 2.5rem; }
+
+  .site-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .85rem;
+  }
+
+  .site-brand__name { font-size: 1.7rem; }
+
+  .post-single__title { font-size: 2rem; }
+
+  .post-card { margin-inline: -.5rem; padding-inline: .5rem; }
+
+  .post-card + .post-card::before { inset-inline: .5rem; }
+
+  .site-footer__inner {
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+  }
+}
+
+/* ── Print ────────────────────────────────────────────────── */
+
+@media print {
+  :root { --bg: white; --text: black; }
+  .folk-band, .folk-band--sm { display: none; }
+  .post-content a::after { content: " (" attr(href) ")"; font-size: .8em; }
+}

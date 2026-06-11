@@ -1,6 +1,6 @@
 baseURL = "https://blog.wenzl.no/"
 defaultContentLanguage = "cs"
-title = "Blog – Václav Wenzl"
+title = "Moravák v Norsku"
 
 [languages]
   [languages.cs]
@@ -15,8 +15,9 @@ summaryLength = 70
   tag      = "tags"
 
 [params]
-  description = "Blog – Václav Wenzl"
+  description = "Zápisky moravského člověka žijícího na severu"
   author      = "Václav Wenzl"
+  tagline     = "zápisky z dalekého severu"
   siteURL     = "https://blog.wenzl.no"
 
 [markup]

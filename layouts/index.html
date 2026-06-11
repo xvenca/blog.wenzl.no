@@ -1,26 +1,26 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
-  <meta property="og:title" content="{{ .Site.Title }}">
-  <meta property="og:description" content="{{ .Site.Params.description }}">
-  <meta property="og:url" content="{{ .Site.BaseURL }}">
-  <meta property="og:site_name" content="{{ .Site.Title }}">
-</head>
-<body>
-  <main>
-    <h1>{{ .Site.Title }}</h1>
-    {{ .Content }}
-    {{ range .Site.RegularPages.ByDate.Reverse }}
-    <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
-      <p>{{ .Summary }}</p>
-    </article>
+{{ define "main" }}
+<div class="container">
+  {{ $paginator := .Paginate .Site.RegularPages.ByDate.Reverse }}
+  {{ if $paginator.Pages }}
+  <ol class="post-list" reversed>
+    {{ range $paginator.Pages }}
+    <li class="post-card">
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+        {{ if gt .ReadingTime 0 }}<span class="reading-time">{{ .ReadingTime }} min</span>{{ end }}
+        {{ with .Params.tags }}
+        <div class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</div>
+        {{ end }}
+      </div>
+      <h2 class="post-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      {{ with .Description }}<p class="post-card__summary">{{ . }}</p>{{ end }}
+      <a href="{{ .Permalink }}" class="read-more">číst dál →</a>
+    </li>
     {{ end }}
-  </main>
-</body>
-</html>
+  </ol>
+  {{ if gt $paginator.TotalPages 1 }}{{ template "_internal/pagination.html" . }}{{ end }}
+  {{ else }}
+  <p class="empty">Zápisky se teprve rodí.</p>
+  {{ end }}
+</div>
+{{ end }}
