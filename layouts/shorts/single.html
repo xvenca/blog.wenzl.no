@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="container">
+  <article class="short-single">
+    {{ if .Params.youtube }}
+    <div class="short-video">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube }}"
+        title="{{ .Title | default "video" }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    {{ else if .Params.video }}
+    <div class="short-video">
+      <video controls>
+        <source src="{{ .Params.video }}">
+      </video>
+    </div>
+    {{ end }}
+
+    <div class="short-info">
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+      </div>
+      {{ with .Title }}<h1 class="short-title">{{ . }}</h1>{{ end }}
+      {{ with .Description }}<p class="short-desc">{{ . }}</p>{{ end }}
+      {{ with .Content }}<div class="post-content" style="margin-block-start:1.5rem">{{ . }}</div>{{ end }}
+    </div>
+
+    <footer class="post-single__footer">
+      <a href="{{ "/shorts/" | relURL }}" class="back-link">← zpět na shorts</a>
+    </footer>
+  </article>
+</div>
+{{ end }}
