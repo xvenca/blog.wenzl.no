@@ -5,25 +5,25 @@ description: "A fairy tale about a money printer that went out into the world lo
 tags: ["prose"]
 ---
 
-A money printing machine set out into the world to seek its fortune. Instead of pastries wrapped in a cloth, it packed quality paper, ink, and all the other things needed for printing money. "Perhaps I'll meet some poor souls," it said to itself.
+Once upon a time there was a printing press that set out into the wide world to seek her fortune. Instead of bread and pastries wrapped in a cloth, she packed good paper, ink, and all the other things she needed for printing money. "Perhaps I shall meet some poor souls who need my help," she said to herself.
 
-Toward evening it rang at the first house — it was a cool summer night — and asked: "Good day, do you have enough money?"
+Towards evening she knocked at the door of the first house she came to---for it was a cool summer's night---and called out: "Good evening! Have you enough money?"
 
-The reply from behind closed doors: "We don't…"
+A voice from behind the closed door replied: "We have not..."
 
-So it printed a hundred thousand and handed it to them; one ought to help the poor.
+So she printed a hundred thousand and passed it through to them, for one must always help the poor.
 
-"Do you have enough money now?"
+"Have you enough now?" she asked.
 
-Reply: "We don't…"
+"We have not..." came the reply.
 
-It printed another hundred thousand and the scene repeated itself.
+She printed another hundred thousand, and so the scene repeated itself.
 
-"So what about now?"
+"And now?" she asked.
 
 "Not yet!"
 
-This time it printed a million.
+This time she printed a million.
 
 "?"
 
@@ -37,16 +37,18 @@ A hundred million.
 
 A billion.
 
-"Well, is that enough?"
+"Surely that is enough?"
 
-"No, are you mad? We need even more! And hurry up!"
+"No, have you lost your senses? We need still more! And be quick about it!"
 
-The printer left sadly, with no sense of a job well done. But wherever it went, it heard: "We don't have enough! We need even more!" It wandered for many days — it couldn't even tell how long it had been on the road. It visited many royal palaces, business owners, and merchants, but everywhere heard the same: "You'll print money for us from morning to night, twenty-four hours a day, seven days a week — we need more money." It was the rulers' words that stung most of all. Such a respected person and not enough money — what a fine state of affairs.
+The poor press left in great sadness, with no sense that she had done any good at all. Yet wherever she wandered, she heard the very same words: "We have not enough! We need still more!" She roamed for many days---she could not even say how many---visiting royal palaces and the houses of merchants and great businessmen. But everywhere she heard: "You shall print for us from morning till night, four-and-twenty hours a day, seven days a week, for we need more money." It was the words of kings and rulers that wounded her most deeply. Such distinguished men, she thought, and still not enough---what a sorry state of affairs.
 
-With sadness in its heart, it sat down on a dry tree stump. At the edge of the forest was a spring. A man of about forty came to it. He wore ragged clothes, with a rope wound around his waist. He had a long, well-kept beard. An old Bible and a piece of bread peeked out of his pocket. He had apparently come from a nearby hermitage. There was something remarkable about him — his every movement showed that he was of very noble character. He knelt at the spring, cupped water in his hands, and drank. The printer mustered the courage to try its luck once more.
+With a heavy heart she sat down upon a dry old tree stump at the edge of a forest. Nearby there was a little spring. Presently a man of about forty years came to drink from it. He wore tattered clothes with a rope knotted about his waist, and his beard, though long, was neatly kept. From his pocket there peeped an old Bible and a crust of bread. He had come, it seemed, from a hermitage not far away. There was something most remarkable about him---in his every movement it was plain to see that he was a person of very noble spirit. He knelt by the spring, cupped the cool water gently in his hands, and drank.
 
-Wearily, yet politely, it asked: "Good day, how much money shall I print for you?"
+The press gathered her courage and resolved to try her luck once more.
 
-The man replied: "Good day, I do not need money. Thank you, however, for your offer."
+Wearily, yet with great courtesy, she asked: "Good day to you, sir. How much money shall I print for you?"
 
-The printer knew such people existed somewhere. With reverence it stepped aside a little, smiled with happiness, and said softly into the silence: "At last, someone who is truly rich."
+The man looked up and replied: "Good day to you. I have no need of money. Yet I thank you most kindly for your generous offer."
+
+The press had always known that such people existed somewhere in the world. She stepped back a little, out of respect, and a joy she had not felt in a very long time rose up quietly within her heart. And softly, almost to herself, she said: "At last---here is someone who is truly rich."
