@@ -1,27 +1,31 @@
 baseURL = "https://blog.wenzl.no/"
-defaultContentLanguage = "cs"
-title = "Moravák v Norsku"
+defaultContentLanguage = "no"
+title = "Moraver i Norge"
 
 [languages]
-  [languages.cs]
-    locale = "cs-CZ"
-    weight = 1
-
-  [languages.en]
-    locale = "en-US"
-    weight = 2
-    title = "Moravian in Norway"
-    [languages.en.params]
-      description = "Notes of a Moravian man living in the North"
-      tagline = "notes from the far north"
-
   [languages.no]
     locale = "nb-NO"
-    weight = 3
+    weight = 1
     title = "Moraver i Norge"
     [languages.no.params]
       description = "Notater fra en moraver som bor i nord"
       tagline = "notater fra den fjerne nord"
+
+  [languages.cs]
+    locale = "cs-CZ"
+    weight = 2
+    title = "Moravák v Norsku"
+    [languages.cs.params]
+      description = "Zápisky moravského člověka žijícího na severu"
+      tagline     = "zápisky z dalekého severu"
+
+  [languages.en]
+    locale = "en-US"
+    weight = 3
+    title = "Moravian in Norway"
+    [languages.en.params]
+      description = "Notes of a Moravian man living in the North"
+      tagline = "notes from the far north"
 
 paginate = 10
 summaryLength = 70
@@ -31,9 +35,9 @@ summaryLength = 70
   tag      = "tags"
 
 [params]
-  description = "Zápisky moravského člověka žijícího na severu"
+  description = "Notater fra en moraver som bor i nord"
   author      = "Václav Wenzl"
-  tagline     = "zápisky z dalekého severu"
+  tagline     = "notater fra den fjerne nord"
   siteURL     = "https://blog.wenzl.no"
 
 [markup]
