@@ -1,31 +1,31 @@
 baseURL = "https://blog.wenzl.no/"
 defaultContentLanguage = "no"
-title = "Moraver i Norge"
+title = "Den magre eremitt og andre eventyr"
 
 [languages]
   [languages.no]
     locale = "nb-NO"
     weight = 1
-    title = "Moraver i Norge"
+    title = "Den magre eremitt og andre eventyr"
     [languages.no.params]
-      description = "Notater fra en moraver som bor i nord"
-      tagline = "notater fra den fjerne nord"
+      description = "Den magre eremitt og andre eventyr"
+      tagline = "Martin Wenzl"
 
   [languages.cs]
     locale = "cs-CZ"
     weight = 2
-    title = "Moravák v Norsku"
+    title = "Chudy poustevník a jiné pohádky"
     [languages.cs.params]
-      description = "Zápisky moravského člověka žijícího na severu"
-      tagline     = "zápisky z dalekého severu"
+      description = "Chudy poustevník a jiné pohádky"
+      tagline = "Martin Wenzl"
 
   [languages.en]
     locale = "en-US"
     weight = 3
-    title = "Moravian in Norway"
+    title = "The Lean Hermit and Other Tales"
     [languages.en.params]
-      description = "Notes of a Moravian man living in the North"
-      tagline = "notes from the far north"
+      description = "The Lean Hermit and Other Tales"
+      tagline = "Martin Wenzl"
 
 paginate = 10
 summaryLength = 70
@@ -35,9 +35,9 @@ summaryLength = 70
   tag      = "tags"
 
 [params]
-  description = "Notater fra en moraver som bor i nord"
-  author      = "Václav Wenzl"
-  tagline     = "notater fra den fjerne nord"
+  description = "Den magre eremitt og andre eventyr"
+  author      = "Martin Wenzl"
+  tagline     = "Martin Wenzl"
   siteURL     = "https://blog.wenzl.no"
 
 [markup]
