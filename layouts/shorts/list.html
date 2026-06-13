@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="container">
+  <header class="list-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="shorts-feed" data-base-url="{{ "/shorts/page/" | relURL }}">
+    {{ range .Paginator.Pages }}
+    <article class="short-item">
+      {{ if .Params.youtube }}
+      <div class="short-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube }}"
+          title="{{ .Title | default "video" }}"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+      {{ else if .Params.video }}
+      <div class="short-video">
+        <video controls preload="metadata">
+          <source src="{{ .Params.video }}">
+        </video>
+      </div>
+      {{ end }}
+      <div class="short-info">
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
+        </div>
+        {{ with .Title }}<h2 class="short-title"><a href="{{ .Permalink }}">{{ . }}</a></h2>{{ end }}
+        {{ with .Description }}<p class="short-desc">{{ . }}</p>{{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ "js/infinite-scroll.js" | relURL }}" defer></script>
+{{ end }}
