@@ -7,6 +7,14 @@ title = "Moravák v Norsku"
     locale = "cs-CZ"
     weight = 1
 
+  [languages.en]
+    locale = "en-US"
+    weight = 2
+    title = "Moravian in Norway"
+    [languages.en.params]
+      description = "Notes of a Moravian man living in the North"
+      tagline = "notes from the far north"
+
 paginate = 10
 summaryLength = 70
 
