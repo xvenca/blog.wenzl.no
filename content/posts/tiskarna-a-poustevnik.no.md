@@ -1,6 +1,7 @@
 ---
 title: "Trykkeren og eneboeren"
 date: 2026-06-13
+slug: "trykkeren-og-eneboeren"
 description: "Et eventyr om en pengetrykker som dro ut i verden på jakt etter noen som virkelig var rik."
 tags: ["prosa"]
 ---
