@@ -5,6 +5,8 @@ description: "Pohádka o tiskárně peněz, která hledala po světě někoho op
 tags: ["próza"]
 ---
 
+![Tiskárna a poustevník](/images/tiskarna-a-poustevnik-cs.png)
+
 Šla tiskárna peněz na zkušenou do světa. Místo buchet do šátku zabalila kvalitní papír, barvu a ostatní věci, které potřebuje k tisku peněz. „Třeba potkám nějaké chudáky," řekla si.
 
 Na večer zazvonila u prvního domu, byla chladná letní noc, a ptá se: „Dobrý den, máte dostatek peněz?"

@@ -5,6 +5,8 @@ description: "Et eventyr om en pengetrykker som dro ut i verden på jakt etter n
 tags: ["prosa"]
 ---
 
+![Trykkeren og eneboeren](/images/tiskarna-a-poustevnik-no.png)
+
 En pengetrykker dro ut i den vide verden. I stedet for brød og boller i et skjerf, pakket hun godt papir, blekk og alt annet hun trengte for å trykke penger. "Kanskje jeg møter noen som er fattige," sa hun til seg selv.
 
 Om kvelden ringte hun på den første døren hun kom til --- det var en kjølig sommerkveld --- og spurte: "God kveld! Har dere nok penger?"

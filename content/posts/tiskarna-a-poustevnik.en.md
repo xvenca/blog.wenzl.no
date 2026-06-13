@@ -5,6 +5,8 @@ description: "A fairy tale about a money printer that went out into the world lo
 tags: ["prose"]
 ---
 
+![The Printer and the Hermit](/images/tiskarna-a-poustevnik-en.png)
+
 Once upon a time there was a printing press that set out into the wide world to seek her fortune. Instead of bread and pastries wrapped in a cloth, she packed good paper, ink, and all the other things she needed for printing money. "Perhaps I shall meet some poor souls who need my help," she said to herself.
 
 Towards evening she knocked at the door of the first house she came to---for it was a cool summer's night---and called out: "Good evening! Have you enough money?"
