@@ -139,6 +139,17 @@ a:hover { color: var(--accent-h); }
 .site-nav a:hover { color: var(--text); }
 .site-nav a.active { color: var(--text); }
 
+.site-nav__sep {
+  display: inline-block;
+  width: 1px;
+  height: .85em;
+  background: var(--border);
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.lang-link { font-size: .72rem !important; letter-spacing: .08em !important; }
+
 /* ── Post list ──────────────────────────────────────────────────── */
 
 .post-list { list-style: none; }

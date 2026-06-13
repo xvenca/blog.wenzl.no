@@ -10,6 +10,14 @@
       <nav class="site-nav" aria-label="Navigace">
         <a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>zápisky</a>
         <a href="{{ "/shorts/" | relURL }}"{{ if eq .Section "shorts" }} class="active"{{ end }}>shorts</a>
+        <span class="site-nav__sep" aria-hidden="true"></span>
+        {{- $currentLang := .Site.Language.Lang -}}
+        {{- range .AllTranslations -}}
+          <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}"
+             class="lang-link{{ if eq .Language.Lang $currentLang }} active{{ end }}">
+            {{- .Language.Lang | upper -}}
+          </a>
+        {{- end -}}
       </nav>
     </div>
   </div>
