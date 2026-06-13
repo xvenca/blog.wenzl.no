@@ -15,6 +15,14 @@ title = "Moravák v Norsku"
       description = "Notes of a Moravian man living in the North"
       tagline = "notes from the far north"
 
+  [languages.no]
+    locale = "nb-NO"
+    weight = 3
+    title = "Moraver i Norge"
+    [languages.no.params]
+      description = "Notater fra en moraver som bor i nord"
+      tagline = "notater fra den fjerne nord"
+
 paginate = 10
 summaryLength = 70
 
