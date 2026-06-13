@@ -1,5 +1,6 @@
 baseURL = "https://blog.wenzl.no/"
 defaultContentLanguage = "no"
+defaultContentLanguageInSubdir = true
 title = "Den magre eremitt og andre eventyr"
 
 [languages]
