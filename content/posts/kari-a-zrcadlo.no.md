@@ -3,6 +3,7 @@ title: "Kari og speilet"
 date: 2026-06-13
 description: "Et moderne eventyr om et digitalt trylleord. Kari sitter i en forfallen hytte. Utenfor lokker solen og fjellene, men øynene hennes er bare for den lysende telefonen. En forlatt familie roper, men Kari hører ikke. Hun er fanget av trolldommen til en trollmann som blir rik på den bortskastede tiden hennes. Vil hun klare å knuse det fortryllede speilet og finne veien tilbake til det virkelige livet?"
 tags: ["prosa", "eventyr", "moderne legende", "teknologi", "avhengighet"]
+image: "/images/kari-a-zrcadlo.png"
 ---
 
 ![Kari og speilet](/images/kari-a-zrcadlo.png)

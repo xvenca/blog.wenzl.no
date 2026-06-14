@@ -3,6 +3,7 @@ title: "Tiskárna a poustevník"
 date: 2026-06-13
 description: "Pohádka o tiskárně peněz, která hledala po světě někoho opravdu bohatého."
 tags: ["próza"]
+image: "/images/tiskarna-a-poustevnik-cs.png"
 ---
 
 ![Tiskárna a poustevník](/images/tiskarna-a-poustevnik-cs.png)
