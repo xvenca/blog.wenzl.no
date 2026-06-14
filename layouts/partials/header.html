@@ -10,6 +10,8 @@
       <nav class="site-nav" aria-label="Navigace">
         <a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>{{ i18n "nav_home" }}</a>
         <span class="site-nav__sep" aria-hidden="true"></span>
+        <a href="https://wenzl.no">{{ i18n "nav_beekeeping" }}</a>
+        <span class="site-nav__sep" aria-hidden="true"></span>
         {{- $currentLang := .Site.Language.Lang -}}
         {{- range .AllTranslations -}}
           <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}"
