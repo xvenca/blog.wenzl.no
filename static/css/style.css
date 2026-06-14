@@ -250,10 +250,12 @@ a:hover { color: var(--accent-h); }
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
   border-radius: 6px;
   margin-block-end: 1.25rem;
   text-decoration: none;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
 .post-card__image img {
@@ -262,6 +264,12 @@ a:hover { color: var(--accent-h); }
   object-fit: cover;
   border-radius: 6px;
   display: block;
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+
+.post-card__image img.is-loaded {
+  opacity: 1;
 }
 
 .post-card__title {

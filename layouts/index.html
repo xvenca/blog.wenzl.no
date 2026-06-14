@@ -3,22 +3,39 @@
   {{ $paginator := .Paginate .Site.RegularPages.ByDate.Reverse }}
   {{ if $paginator.Pages }}
   <ol class="post-list" reversed>
-    {{ range $paginator.Pages }}
-    {{ $post := . }}
+    {{ range $index, $post := $paginator.Pages }}
     <li class="post-card">
-      {{ with .Params.image }}
-      <a href="{{ $post.Permalink }}" class="post-card__image"><img src="{{ . }}" alt="{{ $post.Title }}"></a>
+      {{ with $post.Params.image }}
+      {{ $imagePath := strings.TrimPrefix "/" . }}
+      {{ $img := resources.Get $imagePath }}
+      {{ if $img }}
+        {{ $thumb := $img.Resize "800x webp q80" }}
+        {{ $lqip := $img.Resize "32x webp q20" }}
+        {{ $lqipB64 := $lqip.Content | base64Encode }}
+        <a href="{{ $post.Permalink }}" class="post-card__image" style="background-image:url('data:image/webp;base64,{{ $lqipB64 }}')">
+          <img src="{{ $thumb.RelPermalink }}"
+               alt="{{ $post.Title }}"
+               width="{{ $thumb.Width }}"
+               height="{{ $thumb.Height }}"
+               {{ if gt $index 0 }}loading="lazy" decoding="async"{{ end }}>
+        </a>
+      {{ else }}
+        <a href="{{ $post.Permalink }}" class="post-card__image">
+          <img src="{{ . }}" alt="{{ $post.Title }}"
+               {{ if gt $index 0 }}loading="lazy" decoding="async"{{ end }}>
+        </a>
+      {{ end }}
       {{ end }}
       <div class="post-meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
-        {{ if gt .ReadingTime 0 }}<span class="reading-time">{{ .ReadingTime }} min</span>{{ end }}
-        {{ with .Params.tags }}
+        <time datetime="{{ $post.Date.Format "2006-01-02" }}">{{ $post.Date.Format "2. 1. 2006" }}</time>
+        {{ if gt $post.ReadingTime 0 }}<span class="reading-time">{{ $post.ReadingTime }} min</span>{{ end }}
+        {{ with $post.Params.tags }}
         <div class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</div>
         {{ end }}
       </div>
-      <h2 class="post-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      {{ with .Description }}<p class="post-card__summary">{{ . }}</p>{{ end }}
-      <a href="{{ .Permalink }}" class="read-more">{{ i18n "read_more" }}</a>
+      <h2 class="post-card__title"><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></h2>
+      {{ with $post.Description }}<p class="post-card__summary">{{ . }}</p>{{ end }}
+      <a href="{{ $post.Permalink }}" class="read-more">{{ i18n "read_more" }}</a>
     </li>
     {{ end }}
   </ol>
@@ -27,4 +44,16 @@
   <p class="empty">Zápisky se teprve rodí.</p>
   {{ end }}
 </div>
+
+<script>
+(function () {
+  document.querySelectorAll('.post-card__image img').forEach(function (img) {
+    function reveal() {
+      img.classList.add('is-loaded');
+      img.parentElement.style.backgroundImage = 'none';
+    }
+    img.complete ? reveal() : img.addEventListener('load', reveal);
+  });
+}());
+</script>
 {{ end }}
