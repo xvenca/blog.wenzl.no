@@ -1,6 +1,7 @@
 ---
 title: "Insektenes Konge eller Dronning"
 date: 2026-06-14
+draft: true
 slug: "insektenes-konge-eller-dronning"
 description: "Et eventyr om en verden full av insekter som en mektig trollmann har forgiftet. En gammel mann forteller et barn om hvordan det var i hans ungdom — sommerfugler i hagen, bier i trærne. Nå er bare minnene igjen. Men den som har et godt hjerte, kan fortsatt skrive den lykkelige slutten."
 tags: ["prosa", "eventyr", "natur", "økologi"]
