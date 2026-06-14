@@ -1,31 +1,31 @@
 baseURL = "https://blog.wenzl.no/"
 defaultContentLanguage = "no"
 defaultContentLanguageInSubdir = true
-title = "Den magre eremitt og andre eventyr"
+title = "Eremitt og andre eventyr"
 
 [languages]
   [languages.no]
     locale = "nb-NO"
     weight = 1
-    title = "Den magre eremitt og andre eventyr"
+    title = "Eremitt og andre eventyr"
     [languages.no.params]
-      description = "Den magre eremitt og andre eventyr"
+      description = "Eremitt og andre eventyr"
       tagline = "Martin Wenzl"
 
   [languages.cs]
     locale = "cs-CZ"
     weight = 2
-    title = "Chudy poustevník a jiné pohádky"
+    title = "Poustevník a jiné pohádky"
     [languages.cs.params]
-      description = "Chudy poustevník a jiné pohádky"
+      description = "Poustevník a jiné pohádky"
       tagline = "Martin Wenzl"
 
   [languages.en]
     locale = "en-US"
     weight = 3
-    title = "The Lean Hermit and Other Tales"
+    title = "The Hermit and Other Tales"
     [languages.en.params]
-      description = "The Lean Hermit and Other Tales"
+      description = "The Hermit and Other Tales"
       tagline = "Martin Wenzl"
 
 paginate = 10
@@ -36,7 +36,7 @@ summaryLength = 70
   tag      = "tags"
 
 [params]
-  description = "Den magre eremitt og andre eventyr"
+  description = "Eremitt og andre eventyr"
   author      = "Martin Wenzl"
   tagline     = "Martin Wenzl"
   siteURL     = "https://blog.wenzl.no"
