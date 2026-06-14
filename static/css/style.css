@@ -703,14 +703,28 @@ a:hover { color: var(--accent-h); }
 
   .print-colophon {
     display: flex;
-    justify-content: space-between;
-    margin-block-start: 3rem;
-    padding-block-start: .75rem;
-    border-top: 1px solid #ccc;
+    flex-direction: column;
+    align-items: center;
+    gap: .4rem;
+    margin-block-start: 6rem;
+    padding-block-start: 2rem;
+    border-top: 1px solid #bbb;
     font-family: var(--sans);
-    font-size: 9pt;
-    color: #555;
+    text-align: center;
     break-inside: avoid;
     page-break-inside: avoid;
+  }
+
+  .print-colophon__author {
+    font-size: 9.5pt;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #333;
+  }
+
+  .print-colophon__url {
+    font-size: 8.5pt;
+    color: #666;
+    letter-spacing: .04em;
   }
 }
