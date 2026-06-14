@@ -4,7 +4,11 @@
   {{ if $paginator.Pages }}
   <ol class="post-list" reversed>
     {{ range $paginator.Pages }}
+    {{ $post := . }}
     <li class="post-card">
+      {{ with .Params.image }}
+      <a href="{{ $post.Permalink }}" class="post-card__image"><img src="{{ . }}" alt="{{ $post.Title }}"></a>
+      {{ end }}
       <div class="post-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2. 1. 2006" }}</time>
         {{ if gt .ReadingTime 0 }}<span class="reading-time">{{ .ReadingTime }} min</span>{{ end }}

@@ -4,6 +4,7 @@ date: 2026-06-13
 slug: "the-printer-and-the-hermit"
 description: "A fairy tale about a money printer that went out into the world looking for someone truly rich."
 tags: ["prose"]
+image: "/images/tiskarna-a-poustevnik-en.png"
 ---
 
 ![The Printer and the Hermit](/images/tiskarna-a-poustevnik-en.png)

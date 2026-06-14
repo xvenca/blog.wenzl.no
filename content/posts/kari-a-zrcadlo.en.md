@@ -4,6 +4,7 @@ date: 2026-06-13
 slug: "kari-and-the-mirror"
 description: "A modern fairy tale about a digital spell. Kari sits in a crumbling cottage. Outside, the sun and mountains beckon, but her eyes are only for the glowing phone. A forsaken family calls, but Kari doesn't hear. She is trapped by the spell of a sorcerer who grows rich on her wasted time. Will she manage to shatter the enchanted mirror and find her way back to real life?"
 tags: ["prose", "fairy tale", "modern legend", "technology", "addiction"]
+image: "/images/kari-a-zrcadlo.png"
 ---
 
 ![Kari and the Mirror](/images/kari-a-zrcadlo.png)
