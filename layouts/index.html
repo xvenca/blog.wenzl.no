@@ -18,7 +18,7 @@
       </div>
       <h2 class="post-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       {{ with .Description }}<p class="post-card__summary">{{ . }}</p>{{ end }}
-      <a href="{{ .Permalink }}" class="read-more">číst dál →</a>
+      <a href="{{ .Permalink }}" class="read-more">{{ i18n "read_more" }}</a>
     </li>
     {{ end }}
   </ol>
