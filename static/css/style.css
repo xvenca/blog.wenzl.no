@@ -158,7 +158,7 @@ a:hover { color: var(--accent-h); }
   flex-shrink: 0;
 }
 
-.lang-link { font-size: .72rem !important; letter-spacing: .08em !important; }
+.lang-link { font-size: 1.1rem !important; letter-spacing: 0 !important; }
 
 .theme-toggle {
   background: none;
