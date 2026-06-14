@@ -1,15 +1,15 @@
 baseURL = "https://blog.wenzl.no/"
 defaultContentLanguage = "no"
 defaultContentLanguageInSubdir = true
-title = "Eremitt og andre eventyr"
+title = "Eneboer og andre eventyr"
 
 [languages]
   [languages.no]
     locale = "nb-NO"
     weight = 1
-    title = "Eremitt og andre eventyr"
+    title = "Eneboer og andre eventyr"
     [languages.no.params]
-      description = "Eremitt og andre eventyr"
+      description = "Eneboer og andre eventyr"
       tagline = "Martin Wenzl"
 
   [languages.cs]
@@ -36,7 +36,7 @@ summaryLength = 70
   tag      = "tags"
 
 [params]
-  description = "Eremitt og andre eventyr"
+  description = "Eneboer og andre eventyr"
   author      = "Martin Wenzl"
   tagline     = "Martin Wenzl"
   siteURL     = "https://blog.wenzl.no"
