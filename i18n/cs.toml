@@ -5,4 +5,7 @@ other = "číst dál →"
 other = "min čtení"
 
 [back_link]
-other = "← zpět na zápisky"
+other = "← zpět na pohádky"
+
+[nav_home]
+other = "Pohádky"
