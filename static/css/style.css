@@ -16,7 +16,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg:       #0f0f0f;
     --bg-alt:   #1c1c1c;
     --text:     #ededed;
@@ -25,6 +25,16 @@
     --accent-h: #d96065;
     --border:   #2a2a2a;
   }
+}
+
+[data-theme="dark"] {
+  --bg:       #0f0f0f;
+  --bg-alt:   #1c1c1c;
+  --text:     #ededed;
+  --muted:    #777777;
+  --accent:   #c84b50;
+  --accent-h: #d96065;
+  --border:   #2a2a2a;
 }
 
 /* ── Reset ──────────────────────────────────────────────────────── */
@@ -149,6 +159,33 @@ a:hover { color: var(--accent-h); }
 }
 
 .lang-link { font-size: .72rem !important; letter-spacing: .08em !important; }
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0;
+  line-height: 0;
+  transition: color .15s;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.theme-toggle:hover { color: var(--text); }
+
+.icon-sun { display: none; }
+.icon-moon { display: block; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .icon-sun { display: block; }
+  :root:not([data-theme="light"]) .icon-moon { display: none; }
+}
+
+[data-theme="dark"] .icon-sun { display: block; }
+[data-theme="dark"] .icon-moon { display: none; }
+[data-theme="light"] .icon-sun { display: none; }
+[data-theme="light"] .icon-moon { display: block; }
 
 /* ── Post list ──────────────────────────────────────────────────── */
 
