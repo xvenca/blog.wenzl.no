@@ -1,7 +1,6 @@
 ---
 title: "Kari a zrcadlo"
 date: 2026-06-13
-draft: true
 description: "Moderní pohádka o digitálním zakletí. V rozpadlé chaloupce sedí Kari. Venku láká slunce a hory, ale ona má oči jen pro zářící telefon. Opuštěná rodina volá, Kari však neslyší. Je lapena kouzlem čaroděje, který bohatne na jejím promarněném čase. Podaří se jí rozbít zakleté zrcadlo a najít cestu zpět do skutečného života?"
 tags: ["próza", "pohádka", "moderní pověst", "technologie", "závislost"]
 image: "/images/kari-a-zrcadlo.png"
