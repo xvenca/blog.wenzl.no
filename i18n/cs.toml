@@ -1,2 +1,8 @@
 [read_more]
 other = "číst dál →"
+
+[reading_time]
+other = "min čtení"
+
+[back_link]
+other = "← zpět na zápisky"

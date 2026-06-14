@@ -1,2 +1,8 @@
 [read_more]
 other = "read more →"
+
+[reading_time]
+other = "min read"
+
+[back_link]
+other = "← back to notes"
