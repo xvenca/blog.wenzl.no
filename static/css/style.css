@@ -520,7 +520,7 @@ a:hover { color: var(--accent-h); }
   font-style: italic;
   color: var(--muted);
   line-height: 1.7;
-  margin-block-start: 2.5rem;
+  margin-block-start: 5rem;
   padding-block-start: 2rem;
   border-block-start: 1px solid var(--border);
   text-wrap: pretty;
