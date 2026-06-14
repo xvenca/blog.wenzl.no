@@ -1,7 +1,6 @@
 ---
 title: "Král nebo královna hmyzu"
 date: 2026-06-14
-draft: true
 description: "Pohádka o světě plném hmyzu, který mocný čaroděj otrávil. Stařec vypráví dítěti, jak bývalo za jeho mládí – motýli na zahradě, včely na stromech. Dnes zbyly jen vzpomínky. Ale ten, kdo má dobré srdce, může dopsat šťastný konec."
 tags: ["próza", "pohádka", "příroda", "ekologie"]
 image: "/images/kral-hmyzu.png"
