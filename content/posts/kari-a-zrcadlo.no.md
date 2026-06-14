@@ -25,8 +25,3 @@ Hvem forbannet denne verden? En mektig trollmann, en speilmaker. Og speilet er i
 En gammel viking fortalte meg hvordan han seilte over mange hav og så fattige mennesker som satt foran speilet og ble fattigere og fattigere. Han så familier som hadde falt fullstendig fra hverandre på grunn av speilet. Venner på kroen i havnen, som satt i stillhet og stirret inn i sine speil. Og elskere som, på grunn av speilet, ikke lenger hadde tid til kjærlighet.
 
 Ikke vent på en prins som skal redde deg, Kari. De er også fanget i speil. Redd deg selv og kast speilet!
-
-Kari, hvis du leser dette…
-
-Den prinsen i speilet vil aldri omfavne deg. Det huset i speilet vil aldri varme deg. Det livet speilet viser deg, vil aldri bli ditt. Og det gir deg bare depresjon.
-Det virkelige livet er der ute. Det er ufullkomment, noen ganger kjedelig, noen ganger hardt. Men det er ekte, det er ditt. Og bare det er verdt noe.

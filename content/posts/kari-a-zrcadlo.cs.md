@@ -24,8 +24,3 @@ Kdo zaklel tenhle svět? Mocný čaroděj, výrobce zrcadel. A zrcadlo není zad
 Starý viking mi vyprávěl, jak proplul několik moří a viděl chudé lidi sedící před zrcadlem, jak se stávají chudšími a chudšími. Viděl rodiny, které se kvůli zrcadlu úplně rozpadly. Kamarády v hospodě v přístavu, jak sedí mlčky, zírajíce do svých zrcadel. A milence, kteří kvůli zrcadlu už nemají vůbec čas na lásku.
 
 Nečekej na prince, který tě vysvobodí, Kari. Oni jsou v zrcadlech chyceni též. Vysvoboď se sama a zahoď zrcadlo!
-
-Kari, pokud to čteš… 
-
-Ten princ v zrcadle tě nikdy neobejme. Ten dům v zrcadle tě nikdy nezahřeje. Ten život, který ti zrcadlo ukazuje, nikdy nebude tvůj. A ty máš z toho jen deprese.
-Skutečný život je venku. Je nedokonalý, někdy nudný, někdy těžký. Ale je opravdový, je tvůj. A jen ten stojí za to.
