@@ -25,8 +25,3 @@ Who cursed this world? A powerful sorcerer, a maker of mirrors. And the mirror i
 An old Viking told me how he sailed several seas and saw poor people sitting before the mirror, growing poorer and poorer. He saw families that had completely fallen apart because of the mirror. Friends in the pub at the harbor, sitting silently, staring into their mirrors. And lovers who, because of the mirror, no longer have any time at all for love.
 
 Do not wait for a prince to rescue you, Kari. They are caught in mirrors too. Rescue yourself and throw away the mirror!
-
-Kari, if you are reading this…
-
-That prince in the mirror will never embrace you. That house in the mirror will never warm you. That life the mirror shows you will never be yours. And it brings you only despair.
-Real life is outside. It is imperfect, sometimes boring, sometimes hard. But it is genuine, it is yours. And only that is worth it.
