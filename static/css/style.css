@@ -654,8 +654,63 @@ a:hover { color: var(--accent-h); }
 
 /* ── Print ──────────────────────────────────────────────────────── */
 
+.print-colophon { display: none; }
+
 @media print {
-  :root { --bg: white; --text: black; --muted: #555; }
-  .site-header, .site-footer { display: none; }
-  .post-content a::after { content: " (" attr(href) ")"; font-size: .8em; }
+  @page {
+    size: A4 portrait;
+    margin: 2cm 2.5cm 2.5cm;
+
+    @bottom-center {
+      content: counter(page) " / " counter(pages);
+      font-family: sans-serif;
+      font-size: 9pt;
+      color: #777;
+    }
+  }
+
+  @page :left  { margin-left: 3cm; }
+  @page :right { margin-left: 2cm; }
+
+  :root {
+    --bg:     white;
+    --text:   black;
+    --muted:  #555;
+    --accent: #9b2226;
+  }
+
+  html { font-size: 13pt; }
+
+  body { line-height: 1.75; }
+
+  .site-header,
+  .site-footer,
+  .post-single__footer { display: none; }
+
+  .container { max-width: 100%; padding: 0; }
+
+  .post-single__header { margin-block-end: 2rem; }
+
+  .post-single__title { font-size: 22pt; }
+
+  .post-meta { font-size: 9pt; color: #555; }
+
+  .post-content a { color: inherit; text-decoration: underline; }
+  .post-content a::after { content: none; }
+
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+  p       { orphans: 3; widows: 3; }
+
+  .print-colophon {
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 3rem;
+    padding-block-start: .75rem;
+    border-top: 1px solid #ccc;
+    font-family: var(--sans);
+    font-size: 9pt;
+    color: #555;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
