@@ -1,6 +1,5 @@
 {{ define "main" }}
 <div class="container">
-  {{ with .Content }}<div class="home-disclaimer">{{ . }}</div>{{ end }}
   {{ $paginator := .Paginate .Site.RegularPages.ByDate.Reverse }}
   {{ if $paginator.Pages }}
   <ol class="post-list" reversed>
