@@ -13,10 +13,12 @@
         <a href="https://wenzl.no">{{ i18n "nav_beekeeping" }}</a>
         <span class="site-nav__sep" aria-hidden="true"></span>
         {{- $currentLang := .Site.Language.Lang -}}
+        {{- $flags := dict "no" "🇳🇴" "cs" "🇨🇿" "en" "🇬🇧" -}}
         {{- range .AllTranslations -}}
           <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}"
-             class="lang-link{{ if eq .Language.Lang $currentLang }} active{{ end }}">
-            {{- .Language.Lang | upper -}}
+             class="lang-link{{ if eq .Language.Lang $currentLang }} active{{ end }}"
+             title="{{ .Language.Lang | upper }}">
+            {{- index $flags .Language.Lang | default (.Language.Lang | upper) -}}
           </a>
         {{- end -}}
         <span class="site-nav__sep" aria-hidden="true"></span>
