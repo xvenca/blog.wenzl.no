@@ -1,2 +1,8 @@
 [read_more]
 other = "les mer →"
+
+[reading_time]
+other = "min lesing"
+
+[back_link]
+other = "← tilbake til notater"
