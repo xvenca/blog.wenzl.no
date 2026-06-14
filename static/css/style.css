@@ -188,23 +188,6 @@ a:hover { color: var(--accent-h); }
 [data-theme="light"] .icon-sun { display: none; }
 [data-theme="light"] .icon-moon { display: block; }
 
-/* ── Home disclaimer ────────────────────────────────────────────── */
-
-.home-disclaimer {
-  margin-block-end: 3rem;
-  padding-block-end: 2.5rem;
-  border-block-end: 1px solid var(--border);
-}
-
-.home-disclaimer p {
-  font-family: var(--serif);
-  font-size: .875rem;
-  font-style: italic;
-  color: var(--muted);
-  line-height: 1.75;
-  text-wrap: pretty;
-}
-
 /* ── Post list ──────────────────────────────────────────────────── */
 
 .post-list { list-style: none; }
@@ -527,6 +510,20 @@ a:hover { color: var(--accent-h); }
   color: var(--muted);
   letter-spacing: .06em;
   text-transform: uppercase;
+}
+
+/* ── Post disclaimer ────────────────────────────────────────────── */
+
+.post-disclaimer {
+  font-family: var(--serif);
+  font-size: .8rem;
+  font-style: italic;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-block-start: 5rem;
+  padding-block-start: 2rem;
+  border-block-start: 1px solid var(--border);
+  text-wrap: pretty;
 }
 
 /* ── Post single footer ─────────────────────────────────────────── */
