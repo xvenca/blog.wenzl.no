@@ -520,7 +520,7 @@ a:hover { color: var(--accent-h); }
   font-style: italic;
   color: var(--muted);
   line-height: 1.7;
-  margin-block-start: 5rem;
+  margin-block-start: 2.5rem;
   padding-block-start: 2rem;
   border-block-start: 1px solid var(--border);
   text-wrap: pretty;
@@ -669,7 +669,30 @@ a:hover { color: var(--accent-h); }
 
 /* ── Print ──────────────────────────────────────────────────────── */
 
-.print-colophon { display: none; }
+.print-colophon {
+  display: flex;
+  gap: .5em;
+  align-items: baseline;
+  margin-block-start: 3.5rem;
+  padding-block-start: 2.5rem;
+  border-block-start: 1px solid var(--border);
+}
+
+.print-colophon__author {
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.print-colophon__url {
+  font-family: var(--sans);
+  font-size: .68rem;
+  color: var(--muted);
+  letter-spacing: .03em;
+}
 
 @media print {
   @page {
@@ -717,13 +740,13 @@ a:hover { color: var(--accent-h); }
   p       { orphans: 3; widows: 3; }
 
   .print-colophon {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: .4rem;
     margin-block-start: 6rem;
     padding-block-start: 2rem;
     border-top: 1px solid #bbb;
+    border-block-start: none;
     font-family: var(--sans);
     text-align: center;
     break-inside: avoid;
