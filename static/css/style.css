@@ -105,9 +105,9 @@ a:hover { color: var(--accent-h); }
 
 .site-header__inner {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .75rem;
   padding-block: 2rem;
 }
 
@@ -569,7 +569,7 @@ a:hover { color: var(--accent-h); }
 @media (max-width: 640px) {
   html { font-size: 20px; }
   .site-header { margin-block-end: 2.5rem; }
-  .site-header__inner { flex-direction: column; align-items: flex-start; gap: .6rem; }
+  .site-header__inner { gap: .5rem; }
   .post-single__title { font-size: 2rem; }
   .post-content > p:first-of-type::first-letter { font-size: 3em; }
   .site-footer__inner { flex-direction: column; gap: .5rem; text-align: center; }
