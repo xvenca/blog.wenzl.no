@@ -1,6 +1,7 @@
 ---
 title: "The King or Queen of Insects"
 date: 2026-06-14
+draft: true
 slug: "the-king-or-queen-of-insects"
 description: "A fairy tale about a world once full of insects, poisoned by a powerful sorcerer. An old man tells a child how it used to be in his youth — butterflies in the garden, bees filling the trees. Only memories remain now. But whoever has a good heart can still write the happy ending."
 tags: ["prose", "fairy tale", "nature", "ecology"]
