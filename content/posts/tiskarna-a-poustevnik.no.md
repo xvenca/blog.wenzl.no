@@ -1,13 +1,13 @@
 ---
-title: "Pengetrykkmaskinen og eneboeren"
+title: "Pengetrykkmaskinen og eremitten"
 date: 2026-06-13
-slug: "pengetrykkmaskinen-og-eneboeren"
+slug: "pengetrykkmaskinen-og-eremitten"
 description: "Et eventyr om en pengetrykkmaskin som dro ut i verden på jakt etter noen som virkelig var rik."
 tags: ["prosa"]
 image: "/images/tiskarna-a-poustevnik-no.png"
 ---
 
-![Pengetrykkmaskinen og eneboeren](/images/tiskarna-a-poustevnik-no.png)
+![Pengetrykkmaskinen og eremitten](/images/tiskarna-a-poustevnik-no.png)
 
 En pengetrykkmaskin dro ut i den vide verden. I stedet for brød og boller i et skjerf, pakket hun godt papir, blekk og alt annet hun trengte for å trykke penger. "Kanskje jeg møter noen som er fattige," sa hun til seg selv.
 
