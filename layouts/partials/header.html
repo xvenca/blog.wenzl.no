@@ -8,7 +8,7 @@
         {{ end }}
       </div>
       <nav class="site-nav" aria-label="Navigace">
-        <a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>zápisky</a>
+        <a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>{{ i18n "nav_home" }}</a>
         <a href="{{ "/shorts/" | relURL }}"{{ if eq .Section "shorts" }} class="active"{{ end }}>shorts</a>
         <span class="site-nav__sep" aria-hidden="true"></span>
         {{- $currentLang := .Site.Language.Lang -}}

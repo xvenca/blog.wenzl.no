@@ -5,4 +5,7 @@ other = "les mer →"
 other = "min lesing"
 
 [back_link]
-other = "← tilbake til notater"
+other = "← tilbake til eventyr"
+
+[nav_home]
+other = "Eventyr"

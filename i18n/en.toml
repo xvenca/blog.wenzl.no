@@ -5,4 +5,7 @@ other = "read more →"
 other = "min read"
 
 [back_link]
-other = "← back to notes"
+other = "← back to tales"
+
+[nav_home]
+other = "Tales"
