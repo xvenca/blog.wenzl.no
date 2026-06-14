@@ -3,14 +3,14 @@ title: "Kari og speilet"
 date: 2026-06-13
 draft: true
 slug: "kari-og-speilet"
-description: "Et moderne eventyr om et digitalt trylleord. Kari sitter i en forfallen hytte. Utenfor lokker solen og fjellene, men øynene hennes er bare for den lysende telefonen. En forlatt familie roper, men Kari hører ikke. Hun er fanget av trolldommen til en trollmann som blir rik på den bortskastede tiden hennes. Vil hun klare å knuse det fortryllede speilet og finne veien tilbake til det virkelige livet?"
+description: "Et moderne eventyr om digital fortryllelse. Kari sitter i en forfallen hytte. Utenfor lokker solen og fjellene, men øynene hennes er bare for den lysende telefonen. En forlatt familie roper, men Kari hører ikke. Hun er fanget av trolldommen til en trollmann som blir rik på den bortskastede tiden hennes. Vil hun klare å knuse det fortryllede speilet og finne veien tilbake til det virkelige livet?"
 tags: ["prosa", "eventyr", "moderne legende", "teknologi", "avhengighet"]
 image: "/images/kari-a-zrcadlo.png"
 ---
 
 ![Kari og speilet](/images/kari-a-zrcadlo.png)
 
-I eventyrenes verden lurer en felle. Et speil som viser deg alt du ønsker deg. Mangler du kjærlighet? Speilet viser deg kjærlighet. Mangler du et vennlig ord? Speilet taler. Vil du ha penger? Speilet gir deg følelsen av å være rik. Den som setter seg foran speilet, er fanget og kan ikke gå derfra. Speilet spiser tid. Det er som et tungt stoff — et stoff som ødelegger deg. Dette speilet gir folk en falsk følelse av lykke.
+I eventyrenes verden lurer en felle. Et speil som viser deg alt du ønsker deg. Mangler du kjærlighet? Speilet viser deg kjærlighet. Mangler du et vennlig ord? Speilet taler. Vil du ha penger? Speilet gir deg følelsen av å være rik. Den som setter seg foran speilet, er fanget og kan ikke gå derfra. Speilet spiser tid. Det er som et hardt stoff — et stoff som ødelegger deg. Dette speilet gir folk en falsk følelse av lykke.
 
 Kari sitter i en forfallen hytte, speilet i hånden, og stirrer. Hun har stirret i én dag, i to. Familien roper, men hun hører ikke. «Gå på jobb, Kari, vi må reparere huset!» Men Kari har ikke tid. Speilet gir henne lykke. Hun ligger i sofaen i den forfalne hytten. Og utenfor skinner solen, utenfor er fjellene vakre. Fiskerne stiger tidlig opp for å dra til sjøs. Og Kari sitter gjennom natten, sitter og stirrer inn i speilet sitt.
 
@@ -23,6 +23,6 @@ Og Kari er ikke alene om dette. Speilet har fanget det meste av verden. Folk lev
 
 Hvem forbannet denne verden? En mektig trollmann, en speilmaker. Og speilet er ikke gratis. Du betaler for det hver dag, og trollmannen blir rik. Du sitter i den forfalne hytten, Kari, og trollmannen og hans hjelpere blir rikere. De har en lykkelig familie og et rikt liv, fordi de ikke sitter foran speilet og speilet ikke er tillatt i deres hjem. Det lykkelige livet, som du også kan ha, hvis du kaster speilet.
 
-En gammel viking fortalte meg hvordan han seilte over mange hav og så fattige mennesker som satt foran speilet og ble fattigere og fattigere. Han så familier som hadde falt fullstendig fra hverandre på grunn av speilet. Venner på kroen i havnen, som satt i stillhet og stirret inn i sine speil. Og elskere som, på grunn av speilet, ikke lenger hadde tid til kjærlighet.
+En gammel viking fortalte meg hvordan han seilte over mange hav og så fattige mennesker som satt foran speilet og ble fattigere og fattigere. Han så familier som hadde gått fullstendig i oppløsning på grunn av speilet. Venner på kroen i havnen, som satt i stillhet og stirret inn i sine speil. Og elskere som, på grunn av speilet, ikke lenger hadde tid til kjærlighet.
 
 Ikke vent på en prins som skal redde deg, Kari. De er også fanget i speil. Redd deg selv og kast speilet!

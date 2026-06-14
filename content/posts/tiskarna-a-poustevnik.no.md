@@ -45,13 +45,13 @@ En milliard.
 
 "Nei, er du gal? Vi trenger enda mer! Og fort deg!"
 
-Maskinen gikk bedrøvet av sted, uten noen følelse av å ha gjort noe godt. Men uansett hvor hun kom, hørte hun det samme: "Vi har ikke nok! Vi trenger mer!" Hun vandret i mange dager --- hun visste ikke selv lenger hvor lenge hun hadde vært på veien. Hun besøkte kongelige palasser, forretningsmenn og kjøpmenn, men overalt hørte hun det samme: "Du skal trykke penger for oss fra morgen til kveld, tjuefire timer i døgnet, sju dager i uken, for vi trenger mer penger." Det var ordene fra kongene og fyrstene som sved henne mest. Slike ansette menn, og likevel ikke nok --- det var sannelig ikke mye å skryte av.
+Maskinen gikk bedrøvet av sted, uten noen følelse av å ha gjort noe godt. Men uansett hvor hun kom, hørte hun det samme: "Vi har ikke nok! Vi trenger mer!" Hun vandret i mange dager --- hun visste ikke selv lenger hvor lenge hun hadde vært på veien. Hun besøkte kongelige palasser, forretningsmenn og kjøpmenn, men overalt hørte hun det samme: "Du skal trykke penger for oss fra morgen til kveld, tjuefire timer i døgnet, sju dager i uken, for vi trenger mer penger." Det var ordene fra kongene og fyrstene som sved henne mest. Slike respekterte menn, og likevel ikke nok --- det var sannelig ikke mye å skryte av.
 
-Med tungt hjerte satte hun seg ned på en tørr stubbe ved utkanten av en skog. I nærheten rant en liten kilde. En mann på omtrent førti år kom bort for å drikke. Han hadde fillete klær med et tau knyttet rundt livet, og et langt, velstelt skjegg. Fra lommen stakk det frem en gammel Bibel og et stykke brød. Han så ut til å komme fra et eremittsted like i nærheten. Det var noe helt eget ved ham --- i hvert bevegelse var det tydelig at han var en mann av edel karakter. Han knelte ved kilden, øste opp vann i hendene og drakk.
+Med tungt hjerte satte hun seg ned på en tørr stubbe ved utkanten av en skog. I nærheten rant en liten kilde. En mann på omtrent førti år kom bort for å drikke. Han hadde fillete klær med et tau knyttet rundt livet, og et langt, velstelt skjegg. Fra lommen stakk det frem en gammel Bibel og et stykke brød. Han så ut til å komme fra et eremittsted like i nærheten. Det var noe helt eget ved ham --- i hver bevegelse var det tydelig at han var en mann av edel karakter. Han knelte ved kilden, øste opp vann i hendene og drakk.
 
 Maskinen samlet mot og bestemte seg for å prøve lykken én gang til.
 
-Trett, men høflig, spurte hun: "God dag. Hvor mye penger skal jeg trykke for deg?"
+Lei og trett, men høflig, spurte hun: "God dag. Hvor mye penger skal jeg trykke for deg?"
 
 Mannen svarte: "God dag. Jeg trenger ikke penger. Men tusen takk for tilbudet."
 
