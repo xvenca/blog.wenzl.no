@@ -10,11 +10,11 @@ image: "/images/tiskarna-a-poustevnik-cs.png"
 
 Tiskárna již několik dní pořádně nejedla. Byla velmi unavená po dlouhém putování lesem a bála se, že potká trola. Nebyla zvyklá na hluboké hvozdy ani na vysoké hory a poprvé v životě spatřila losa.
 
-Znala jen město. Město Joachimsthal, odkud putovala a kde se kdysi razily stříbrné mince, a Kutnou Horu, kde se těžilo stříbro. Kutnou Horu, která patřila k nejbohatším městům na světě a jež dala minci zvané thaler materiál. Odtud byla její rodina, odtud si nesla své mincovní řemeslo. Putovala z daleké země až sem, do Norska.
+Znala jen město. Město Joachimsthal, odkud putovala a kde se kdysi razily stříbrné mince, a Kuttenberg, kde se těžilo stříbro. Kuttenberg, která patřila k nejbohatším městům na světě a jež dala minci zvané thaler materiál. Odtud byla její rodina, odtud si nesla své mincovní řemeslo. Putovala z daleké země až sem, do Norska.
 
 A právě když stála u křišťálové studánky a setkala se s poustevníkem, padla vysílením do hlubokého mechu u studánky. Prostě už dál jít nemohla. Byla na konci svých sil, na konci své cesty.
 
-Poustevník, znalý první pomoci a léčivých rostlin, jí přispěchal na pomoc. Viděl zničenou tiskárnu, vyčerpanou těžkou prací pro mocné, ale ještě dýchala. Vzal ji jemně do svých silných náručí a odnesl ji domů.
+Poustevník, znalý první pomoci a léčivých rostlin, jí přispěchal na pomoc. Viděl zničenou tiskárnu, vyčerpanou těžkou prací pro mocné, ale ještě dýchala. Vzal ji jemně do svých silných rukou a odnesl ji domů.
 
 Cestou tiskárny hluboce litoval a viděl v ní sebe, když poprvé přišel ke křišťálové studánce. „Jsou pořád stejní," myslel si, „jednou zničí celý svět. Už umírají i včely."
 
@@ -54,6 +54,6 @@ Poustevník se mlčky usmál. Jako ten, kdo hodně ví, jenž střeží prastar�
 
 „Já fandím Baníku, protože ti borci umí těžit z podzemí nerosty. Je to fotbalový klub horníků. Víš, stříbro, které používáme na výrobu peněz, těží horníci."
 
-Poustevník se zamyslel, podíval se tiskárně do očí a řekl: „Víš co máme společné? Náš klub začíná na B." Ve skutečnosti to však řekl, protože si hluboce váží práce. Práce borců, kteří ze všech sil pracují rukama, aby nakrmili rodinu. Vzpomněl si na rybáře, kteří každý den vstávají a jedou na moře riskovat svůj život. Když lodě přijedou ze severního Norska se sušenou rybou, aby ji v Bergenu prodali a tam získal svou moudrost. Moudrost severu.
+Poustevník se zamyslel, podíval se tiskárně do očí a řekl: „Víš co máme společné? Náš klub začíná na B." Ve skutečnosti to však řekl, protože si hluboce váží práce. Práce borců, kteří ze všech sil pracují rukama, aby nakrmili rodinu. Vzpomněl si na rybáře, kteří každý den vstávají a jedou na moře riskovat svůj život. Jako chlapec si s nimi povídal, když přijeli ze severu prodat v Bergenu sušenou rybu. Tam nabral svou moudrost. Moudrost severu.
 
 Tiskárnu zasáhl dosud nepoznaný klid. Ty modré oči poustevníka byly hluboké jak moře a zrcadlily jeho dobré srdce. I když měl langhus v lese a na rybí trh daleko, cítila se tam v bezpečí.

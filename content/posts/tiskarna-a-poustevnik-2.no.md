@@ -15,7 +15,7 @@ Hun kjente bare byen. Byen Joachimsthal, hvorfra hun hadde reist, der sølvmynte
 
 Og nettopp da hun sto ved den krystallklare kilden og møtte eneboeren, sank hun ned i den dype mosen ved kilden av utmattelse. Hun kunne simpelthen ikke gå lenger. Hun var ved enden av sine krefter, ved enden av veien sin.
 
-Eneboeren, godt kjent med førstehjelp og helbredende planter, skyndte seg til hennes hjelp. Han så den nedbrutte maskinen, utslitt av hardt arbeid for de mektige, men hun åndet ennå. Varsomt løftet han henne i sine sterke armer og bar henne hjem.
+Eneboeren, godt kjent med førstehjelp og helbredende planter, skyndte seg til hennes hjelp. Han så den nedbrutte maskinen, utslitt av hardt arbeid for de mektige, men hun åndet ennå. Varsomt løftet han henne i sine sterke hender og bar henne hjem.
 
 Underveis følte han dyp medfølelse med henne, og så i henne seg selv slik han hadde vært da han første gang kom til den krystallklare kilden. "De er alltid de samme," tenkte han. "En dag vil de ødelegge hele verden. Til og med biene er i ferd med å dø."
 
@@ -55,6 +55,6 @@ Eneboeren smilte i stillhet, smilet til en som vet mye, som vokter nordens urgam
 
 "Jeg heier på Baník, for de guttene kan utvinne fra jordens dyp. Det er en fotballklubb for gruvearbeidere. Sølvet vi bruker til å lage penger, graves ut av gruvearbeidere."
 
-Eneboeren tenkte seg om, så maskinen i øynene og sa: "Vet du hva vi har til felles? Klubbene våre begynner begge på B." Egentlig sa han det fordi han hadde dyp respekt for arbeid. Slitet til dem som arbeider med hendene av alle sine krefter, for å brødfø familien. Han tenkte på fiskerne som står opp hver dag og drar til havs og risikerer livet. Når båtene kom fra Nord-Norge med tørrfisk for å selge den i Bergen, og der hadde han funnet sin visdom. Nordens visdom.
+Eneboeren tenkte seg om, så maskinen i øynene og sa: "Vet du hva vi har til felles? Klubbene våre begynner begge på B." Egentlig sa han det fordi han hadde dyp respekt for arbeid. Slitet til dem som arbeider med hendene av alle sine krefter, for å brødfø familien. Han tenkte på fiskerne som står opp hver dag og drar til havs og risikerer livet. Som gutt snakket han med dem når de kom fra nord for å selge tørrfisk i Bergen. Der hadde han funnet sin visdom. Nordens visdom.
 
 En fred maskinen aldri hadde kjent kom over henne. Eneboerens blå øyne var dype som havet og speilet hans gode hjerte. Selv om langhuset lå dypt i skogen og fisketorget var langt unna, følte hun seg trygg der.
