@@ -55,6 +55,6 @@ Eneboeren smilte i stillhet, smilet til en som vet mye, som vokter nordens urgam
 
 "Jeg heier på Baník, for de guttene kan utvinne fra jordens dyp. Det er en fotballklubb for gruvearbeidere. Sølvet vi bruker til å lage penger, graves ut av gruvearbeidere."
 
-Eneboeren tenkte seg om, så maskinen i øynene og sa: "Vet du hva vi har til felles? Klubbene våre begynner begge på B." Egentlig sa han det fordi han hadde dyp respekt for arbeid. Slitet til dem som arbeider med hendene av alle sine krefter, for å brødfø familien. Han tenkte på fiskerne som står opp hver dag og drar til havs og risikerer livet. Når båtene kom fra Nord-Norge med tørrfisk for å selge den i Bergen, og der hadde han funnet sin visdom. Nordens visdom.
+Eneboeren tenkte seg om, så maskinen i øynene og sa: "Vet du hva vi har til felles? Klubbene våre begynner begge på B." Egentlig sa han det fordi han hadde dyp respekt for arbeid. Slitet til dem som arbeider med hendene av alle sine krefter, for å brødfø familien. Han tenkte på fiskerne som står opp hver dag og drar til havs og risikerer livet. Som gutt snakket han med dem når de kom fra nord for å selge tørrfisk i Bergen. Der hadde han funnet sin visdom. Nordens visdom.
 
 En fred maskinen aldri hadde kjent kom over henne. Eneboerens blå øyne var dype som havet og speilet hans gode hjerte. Selv om langhuset lå dypt i skogen og fisketorget var langt unna, følte hun seg trygg der.

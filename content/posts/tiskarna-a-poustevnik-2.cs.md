@@ -54,6 +54,6 @@ Poustevník se mlčky usmál. Jako ten, kdo hodně ví, jenž střeží prastar�
 
 „Já fandím Baníku, protože ti borci umí těžit z podzemí nerosty. Je to fotbalový klub horníků. Víš, stříbro, které používáme na výrobu peněz, těží horníci."
 
-Poustevník se zamyslel, podíval se tiskárně do očí a řekl: „Víš co máme společné? Náš klub začíná na B." Ve skutečnosti to však řekl, protože si hluboce váží práce. Práce borců, kteří ze všech sil pracují rukama, aby nakrmili rodinu. Vzpomněl si na rybáře, kteří každý den vstávají a jedou na moře riskovat svůj život. Když lodě přijedou ze severního Norska se sušenou rybou, aby ji v Bergenu prodali a tam získal svou moudrost. Moudrost severu.
+Poustevník se zamyslel, podíval se tiskárně do očí a řekl: „Víš co máme společné? Náš klub začíná na B." Ve skutečnosti to však řekl, protože si hluboce váží práce. Práce borců, kteří ze všech sil pracují rukama, aby nakrmili rodinu. Vzpomněl si na rybáře, kteří každý den vstávají a jedou na moře riskovat svůj život. Jako chlapec si s nimi povídal, když přijeli ze severu prodat v Bergenu sušenou rybu. Tam nabral svou moudrost. Moudrost severu.
 
 Tiskárnu zasáhl dosud nepoznaný klid. Ty modré oči poustevníka byly hluboké jak moře a zrcadlily jeho dobré srdce. I když měl langhus v lese a na rybí trh daleko, cítila se tam v bezpečí.
