@@ -23,7 +23,7 @@ For several days the press lay in fever; for several days he kept watch over her
 
 "You said you had no need of money, and yet you live so humbly?"
 
-The hermit smiled in silence, the smile of one who knows much, who guards the ancient secrets of the north.
+The hermit smiled in silence, the smile of one who knows much, who guards the ancient secrets of the north. And he began to sing Jovial by Freddy Kalas.
 
 "Why, you live in a goat shed!"
 

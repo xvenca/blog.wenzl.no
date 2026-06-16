@@ -22,7 +22,7 @@ Několik dní tiskárna ležela v horečkách, několik dní bděl den i noc u j
 
 „Říkal jsi, že peníze nepotřebuješ a bydlíš tak chudě?"
 
-Poustevník se mlčky usmál. Jako ten, kdo hodně ví, jenž střeží prastará tajemství severu.
+Poustevník se mlčky usmál. Jako ten, kdo hodně ví, jenž střeží prastará tajemství severu. A začal si zpívat písničku Jovial od Freddy Kalas.
 
 „Vždyť žiješ v kozím chlívku!"
 

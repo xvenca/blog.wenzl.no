@@ -23,7 +23,7 @@ I flere dager lå maskinen med feber; i flere dager holdt han vakt ved siden av 
 
 "Du sa at du ikke trengte penger, og likevel lever du så fattigslig?"
 
-Eneboeren smilte i stillhet, smilet til en som vet mye, som vokter nordens urgamle hemmeligheter.
+Eneboeren smilte i stillhet, smilet til en som vet mye, som vokter nordens urgamle hemmeligheter. Og han begynte å synge Jovial av Freddy Kalas.
 
 "Du bor jo i et geitehus!"
 
