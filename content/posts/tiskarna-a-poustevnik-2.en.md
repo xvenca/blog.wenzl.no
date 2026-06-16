@@ -15,7 +15,7 @@ She knew only the city. The city of Joachimsthal, from which she had set out, wh
 
 And just as she stood by the crystal spring and met the hermit, she fell into the deep moss by the spring from sheer exhaustion. She could simply go no further. She had reached the end of her strength, the end of her road.
 
-The hermit, well versed in first aid and healing plants, hurried to her aid. He saw the broken press, worn down by long labour in service of the mighty, yet she still breathed. Gently he lifted her in his strong arms and carried her home.
+The hermit, well versed in first aid and healing plants, hurried to her aid. He saw the broken press, worn down by long labour in service of the mighty, yet she still breathed. Gently he lifted her in his strong hands and carried her home.
 
 As he walked, he felt a deep pity for her, and saw in her his own former self, when he had first come to the crystal spring. "They are always the same," he thought. "One day they will destroy the whole world. Even the bees are dying now."
 

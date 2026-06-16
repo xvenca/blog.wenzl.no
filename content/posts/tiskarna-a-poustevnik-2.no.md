@@ -15,7 +15,7 @@ Hun kjente bare byen. Byen Joachimsthal, hvorfra hun hadde reist, der sølvmynte
 
 Og nettopp da hun sto ved den krystallklare kilden og møtte eneboeren, sank hun ned i den dype mosen ved kilden av utmattelse. Hun kunne simpelthen ikke gå lenger. Hun var ved enden av sine krefter, ved enden av veien sin.
 
-Eneboeren, godt kjent med førstehjelp og helbredende planter, skyndte seg til hennes hjelp. Han så den nedbrutte maskinen, utslitt av hardt arbeid for de mektige, men hun åndet ennå. Varsomt løftet han henne i sine sterke armer og bar henne hjem.
+Eneboeren, godt kjent med førstehjelp og helbredende planter, skyndte seg til hennes hjelp. Han så den nedbrutte maskinen, utslitt av hardt arbeid for de mektige, men hun åndet ennå. Varsomt løftet han henne i sine sterke hender og bar henne hjem.
 
 Underveis følte han dyp medfølelse med henne, og så i henne seg selv slik han hadde vært da han første gang kom til den krystallklare kilden. "De er alltid de samme," tenkte han. "En dag vil de ødelegge hele verden. Til og med biene er i ferd med å dø."
 
