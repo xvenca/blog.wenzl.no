@@ -9,7 +9,11 @@ image: "/images/tiskarna-a-poustevnik-no.png"
 
 ![Pengetrykkmaskinen og eneboeren](/images/tiskarna-a-poustevnik-no.png)
 
-Pengetrykkmaskinen hadde ikke spist ordentlig på flere dager. Hun var svært utmattet etter den lange vandringen gjennom skogen, og hun var redd for å møte et troll. Hun var ikke vant til dype skoger eller høye fjell, og for første gang i livet fikk hun øye på en elg. Hun kjente bare byen. Byen Joachimsthal, hvorfra hun hadde reist, der sølvmynter en gang ble preget, og Kuttenberg, der sølv ble utvunnet. Kuttenberg, som hørte til de rikeste byene i verden, og som ga mynten kalt thaleren sitt materiale. Derfra kom familien hennes; det var der hun hadde lært myntmesterhåndverket. Hun hadde vandret fra det fjerne landet helt hit, til Norge. Og nettopp da hun sto ved den krystallklare kilden og møtte eneboeren, sank hun ned i den dype mosen ved kilden av utmattelse. Hun kunne simpelthen ikke gå lenger. Hun var ved enden av sine krefter, ved enden av veien sin.
+Pengetrykkmaskinen hadde ikke spist ordentlig på flere dager. Hun var svært utmattet etter den lange vandringen gjennom skogen, og hun var redd for å møte et troll. Hun var ikke vant til dype skoger eller høye fjell, og for første gang i livet fikk hun øye på en elg.
+
+Hun kjente bare byen. Byen Joachimsthal, hvorfra hun hadde reist, der sølvmynter en gang ble preget, og Kuttenberg, der sølv ble utvunnet. Kuttenberg, som hørte til de rikeste byene i verden, og som ga mynten kalt thaleren sitt materiale. Derfra kom familien hennes; det var der hun hadde lært myntmesterhåndverket. Hun hadde vandret fra det fjerne landet helt hit, til Norge.
+
+Og nettopp da hun sto ved den krystallklare kilden og møtte eneboeren, sank hun ned i den dype mosen ved kilden av utmattelse. Hun kunne simpelthen ikke gå lenger. Hun var ved enden av sine krefter, ved enden av veien sin.
 
 Eneboeren, godt kjent med førstehjelp og helbredende planter, skyndte seg til hennes hjelp. Han så den nedbrutte maskinen, utslitt av hardt arbeid for de mektige, men hun åndet ennå. Varsomt løftet han henne i sine sterke armer og bar henne hjem.
 
