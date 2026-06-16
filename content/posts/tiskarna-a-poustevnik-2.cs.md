@@ -8,7 +8,11 @@ image: "/images/tiskarna-a-poustevnik-cs.png"
 
 ![Tiskárna a poustevník](/images/tiskarna-a-poustevnik-cs.png)
 
-Tiskárna již několik dní pořádně nejedla. Byla velmi unavená po dlouhém putování lesem a v té divočině se cítila nesvá. Nebyla zvyklá na hluboké hvozdy ani na vysoké hory a poprvé v životě spatřila losa. Znala jen město. Město Joachimsthal, odkud putovala a kde se kdysi razily stříbrné mince, a Kutnou Horu, kde se těžilo stříbro. Kutnou Horu, která patřila k nejbohatším městům na světě a jež dala minci zvané thaler materiál. Odtud byla její rodina, odtud si nesla své mincovní řemeslo. Putovala z daleké země až sem, do Norska. A právě když stála u křišťálové studánky a setkala se s poustevníkem, padla vysílením do hlubokého mechu u studánky. Prostě už dál jít nemohla. Byla na konci svých sil, na konci své cesty.
+Tiskárna již několik dní pořádně nejedla. Byla velmi unavená po dlouhém putování lesem a bála se, že potká trola. Nebyla zvyklá na hluboké hvozdy ani na vysoké hory a poprvé v životě spatřila losa.
+
+Znala jen město. Město Joachimsthal, odkud putovala a kde se kdysi razily stříbrné mince, a Kutnou Horu, kde se těžilo stříbro. Kutnou Horu, která patřila k nejbohatším městům na světě a jež dala minci zvané thaler materiál. Odtud byla její rodina, odtud si nesla své mincovní řemeslo. Putovala z daleké země až sem, do Norska.
+
+A právě když stála u křišťálové studánky a setkala se s poustevníkem, padla vysílením do hlubokého mechu u studánky. Prostě už dál jít nemohla. Byla na konci svých sil, na konci své cesty.
 
 Poustevník, znalý první pomoci a léčivých rostlin, jí přispěchal na pomoc. Viděl zničenou tiskárnu, vyčerpanou těžkou prací pro mocné, ale ještě dýchala. Vzal ji jemně do svých silných náručí a odnesl ji domů.
 
