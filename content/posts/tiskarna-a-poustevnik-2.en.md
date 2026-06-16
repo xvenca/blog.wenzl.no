@@ -15,7 +15,7 @@ She knew only the city. The city of Joachimsthal, from which she had set out, wh
 
 And just as she stood by the crystal spring and met the hermit, she fell into the deep moss by the spring from sheer exhaustion. She could simply go no further. She had reached the end of her strength, the end of her road.
 
-The hermit, well versed in first aid and healing plants, hurried to her aid. He saw the broken press, worn down by long labour in service of the mighty, yet she still breathed. Gently he lifted her in his strong arms and carried her home.
+The hermit, well versed in first aid and healing plants, hurried to her aid. He saw the broken press, worn down by long labour in service of the mighty, yet she still breathed. Gently he lifted her in his strong hands and carried her home.
 
 As he walked, he felt a deep pity for her, and saw in her his own former self, when he had first come to the crystal spring. "They are always the same," he thought. "One day they will destroy the whole world. Even the bees are dying now."
 
@@ -55,6 +55,6 @@ The hermit smiled in silence, the smile of one who knows much, who guards the an
 
 "I support Baník, because those lads know how to mine from the depths of the earth. It is a miners' football club, you see. The silver we use for making money is dug out by miners."
 
-The hermit thought for a moment, looked the press in the eyes, and said: "Do you know what we have in common? Our clubs both begin with a B." In truth, however, he said it because he held hard work in the deepest respect. The labour of those who work with their hands with all their strength, to feed their families. He thought of the fishermen who rise every day and sail out to sea, risking their lives. When the boats come from northern Norway with dried fish to sell in Bergen, and there he gained his wisdom. The wisdom of the north.
+The hermit thought for a moment, looked the press in the eyes, and said: "Do you know what we have in common? Our clubs both begin with a B." In truth, however, he said it because he held hard work in the deepest respect. The labour of those who work with their hands with all their strength, to feed their families. He thought of the fishermen who rise every day and sail out to sea, risking their lives. As a boy he would talk with them when they came from the north to sell dried fish in Bergen. That was where he had found his wisdom. The wisdom of the north.
 
 A peace the press had never known before came over her. The hermit's blue eyes were as deep as the sea and mirrored his good heart. Even though his langhus lay deep in the forest and the fish market was far away, she felt safe there.
